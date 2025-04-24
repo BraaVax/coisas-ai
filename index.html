@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bilhetes para Meu Amor 💚</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bilhetes Para Meu Grande Amor</h1>
+  <div class="subtitulo">Mensagens para os momentos que você precisar, cubinho de açucar💚</div>
+  
+  <div class="bilhetes-container">
+    <div class="bilhete azul" onclick="mostrarMensagem('triste')">
+      <h2>Pra quando meu bebe estiver triste😢</h2>
+    </div>
+    <div class="bilhete amarelo" onclick="mostrarMensagem('feliz')">
+      <h2>Para os momentos felizes!😁</h2>
+    </div>
+    <div class="bilhete vermelho" onclick="mostrarMensagem('comRaiva')">
+      <h2>Se a raiva aparecer...😡</h2>
+    </div>
+    <div class="bilhete verde" onclick="mostrarMensagem('especial')">
+      <h2>Um bilhete só pra você 💚</h2>
+    </div>
+    <div class="bilhete laranja" onclick="mostrarValePresentes('valePresentes')">
+      <h2>Vale-presentes 💝</h2>
+    </div>
+  </div>
+
+  <button class="resetar" onclick="resetarMensagens()">Recomeçar bilhetes↩️</button>
+
+  <div class="modal" id="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" onclick="fecharModal()">&times;</span>
+      <p id="mensagem"></p>
+    </div>
+  </div>
+
+  <div class="status-mensagem" id="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
