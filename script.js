@@ -1,9 +1,9 @@
 // Mensagens de cada bilhete
 const mensagens = {
   triste: [
-    "Sempre termos aquele momento ruim ne? mais quero que saiba que independente de tudo eu sempre vou estar aqui, e você podera contar comigo pra tudo, eu estou disposto a ser seu porto seguro quando precisar!. 💙", 
-    "Quando você se sentir sozinha, lembre-se que eu estou aqui, sempre. A tristeza pode vir, mas o meu amor por você vai sempre ser maior. Você não está sozinha, estamos nisso juntos. 💙",
-    "Eu sei que hoje tá difícil, mas eu sei que você vai dar a volta por cima. A tristeza vai passar e logo o sorriso vai voltar pro seu rosto (e eu amo ele).",
+    "Você é a pessoa que eu mais quero ver feliz. Mesmo quando eu não puder fazer isso com um beijo ou abraço, eu espero que minhas palavras aqueçam um pedacinho do seu coração. 💙", 
+    "Se eu não puder segurar sua mão nesse momento, saiba que meu coração tá segurando. Respira fundo, meu bem. Você é mais forte do que essa tristeza. 💙",
+    "Se eu não estiver aí agora, fecha os olhos e sente: eu tô te mandando um abraço bem apertado, desses que aquecem o peito. Você nunca tá sozinha, mesmo de longe eu tô contigo.",
     "Saiba que se você precisar de um abraço ou um beijo(talvez os dois), estou a uma sala de distancia."
   ],
   feliz: [
@@ -15,8 +15,8 @@ const mensagens = {
   comRaiva: [
     "Eu sei que você está irritada agora, mas respira fundo essa raiva vai passar, e logo tudo vai se acalmar não deixe que isso tire a sua paz, você é muito maior do que qualquer raiva.",
     "Eu sei que o momento é difícil e você ta com raiva, mas lembre-se de que isso não define quem você é você é muito forte e vai superar isso eu estou aqui, te amo.",
-    "A raiva só te consome. Liberte-se dela.",
-    "Eu sei que você está chateada agora, mas tenta não deixar que isso te consuma, eu estou aqui para o que você precisar, e se deixar eu posso te ajudar com isso e tudo que precisar."
+    "Se o mundo parecer pesado hoje, se as pessoas não te entenderem, lembra: eu entendo. Eu tô do seu lado, na calma e na tempestade. Sempre.",
+    "Se a raiva tentar te fazer esquecer de quem você é, lembra que pra mim você é luz. Até nos momentos mais difíceis, você continua sendo meu amor mais lindo."
   ],
   especial: [
     "Amor, cada linha desse site foi pensada com carinho só pra você 💚", 
@@ -33,7 +33,11 @@ const mensagens = {
     "Eu te dou um vale para um doce de chocolate! 🍫",
     "Um vale-presente para o melhor brigadeiro do mundo! 🍬",
     "Vale para um suco e um salgado antes das aula começar! 🍕"
+  ],
+  Amor: [
+    "Oi meu amor, fiz isso pra tentar me expressar o máximo que eu consigo, já que eu não sou muito bom nisso, já riram de mim várias vezes quando tentei, mas eu queria te dizer que mesmo a gente se conhecendo só há 214 dias (tô escrevendo isso dia 27/04), eu arrisco dizer que você é uma das mulheres mais especiais da minha vida, a que eu mais amo, e eu sei que infelizmente você não me ama, e confesso que isso dói demais em mim, é muito doído ficar pensando que a mulher que eu imagino um futuro junto não sente o mesmo, porque sério, eu tô disposto a enfrentar qualquer coisa que dificultasse a gente ficar junto sabe, mas quando penso que você não me ama eu fico pensando que você talvez não faria o mesmo, até já pensei que talvez você me ame e só não fale por medo de não dar certo por causa dos seus pais, mas já descartei essa ideia, mas enfim, cara a cara vou te falar mais, te amo",
   ]
+
 };
 
 // Função para exibir as mensagens nos bilhetes
