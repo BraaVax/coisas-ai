@@ -30,7 +30,7 @@ h1 {
 
 .bilhete {
   width: 220px;
-  height: 160px;
+  height: 185px;
   padding: 20px;
   border-radius: 16px;
   color: white;
@@ -67,6 +67,10 @@ h1 {
 /* Novo estilo para o botão Vale-presentes */
 .laranja {
   background-color: #ffb74d; /* Laranja para o vale-presentes */
+}
+
+.ciano {
+  background-color: #00f7ff; /* Cor verde para o bilhete especial */
 }
 
 /* Modal */
